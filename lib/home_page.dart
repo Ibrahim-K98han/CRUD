@@ -63,7 +63,8 @@ class HomePage extends StatelessWidget {
                 ),
               ),
               ElevatedButton(
-      onPressed: () => showDialog<String>(
+      onPressed: () => 
+      showDialog<String>(
         context: context,
         builder: (BuildContext context) => SingleChildScrollView(
           scrollDirection: Axis.vertical,
@@ -120,7 +121,8 @@ class HomePage extends StatelessWidget {
                 )
               
                   ],
-                )),
+                )
+                ),
                
               ],
             ),
