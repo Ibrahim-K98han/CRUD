@@ -33,7 +33,7 @@ class ListViewData extends StatelessWidget {
                         child: Center(
                           child: ListTile(
                             title: Text(provider.info[index].name,style: TextStyle(color: Colors.white),),
-                            subtitle: Text(provider.info[index].designation,style: TextStyle(color: Colors.white),),
+                            //subtitle: Text(provider.info[index].designation,style: TextStyle(color: Colors.white),),
                             onTap: (){
                               Navigator.push(context, MaterialPageRoute(builder: (BuildContext)=>ListViewDetailsPage(),settings: RouteSettings(arguments: provider.info[index],
                   ),));
