@@ -28,5 +28,4 @@ class DataProvider with ChangeNotifier{
     designationController.clear();
     notifyListeners();
   }
-
 }
