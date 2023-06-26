@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:student_info/home_page.dart';
+import 'package:student_info/login_screen.dart';
 import 'data_provider.dart';
 import 'package:provider/provider.dart';
-
-import 'listView.dart';
 import 'listviewprovider.dart';
 void main() {
   runApp(MultiProvider(
@@ -22,7 +21,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: HomePage(),
+      home: LoginScreen(),
     );
   }
 }

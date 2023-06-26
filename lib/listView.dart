@@ -1,10 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter/src/widgets/placeholder.dart';
 import 'package:provider/provider.dart';
 import 'package:student_info/list_view_details_page.dart';
-
-import 'listviewdatamodel.dart';
 import 'listviewprovider.dart';
 
 class ListViewData extends StatelessWidget {
